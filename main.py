@@ -1,13 +1,18 @@
 def main():
     number = int(input('Enter your input: '))
     result = []
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    x = number
+    rem = 0 
+    while x > 0:
+        rem = (x % 2)
+        result.append(rem)
+        print (rem)
+        x= x // 2
+    print(result)
+        
+    
+   
 
-    print(*result)
     ########################################
     # Do not delete the return statement
     ########################################
